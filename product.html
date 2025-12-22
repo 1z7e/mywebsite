@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>تفاصيل المنتج</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">S</div>
+  <nav>
+    <a href="index.html">الرئيسية</a>
+  </nav>
+  <a href="cart.html" class="cart-icon">🛒 <span id="cart-count">0</span></a>
+</header>
+
+<main class="product-page">
+
+  <!-- الشرح -->
+  <div class="product-info">
+    <h1>اشتراك شاهد سنة</h1>
+    <p class="rating">⭐ 3.0</p>
+
+    <p class="description">
+      اشتراك شاهد لمدة سنة<br>
+      حساب خاص – ضمان ذهبي – تسليم فوري
+    </p>
+
+    <p class="price big">39.99 ر.س</p>
+
+    <button
+       onclick="addToCart(
+      'اشتراك شاهد سنة',
+       39.99,
+       './img./img/Screenshot 2025-12-19 193746.png'
+         )">
+         أضف إلى السلة
+    </button>
+
+
+
+
+    <button class="buy-now" onclick="checkoutSingle()">
+      شراء الآن
+    </button>
+
+    <button class="whatsapp"
+  onclick="productWhatsApp('اشتراك شاهد سنة', 39.99)">
+  💬 تواصل واتساب
+    </button>
+
+  </div>
+
+  <!-- الصورة -->
+  <div class="product-image">
+    <img src="./img/Screenshot 2025-12-19 193746.png">
+  </div>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

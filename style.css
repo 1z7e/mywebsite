@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-family: Tahoma;
+  background: radial-gradient(#111, #000);
+  color: #fff;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #000;
+}
+
+.logo { font-size: 26px; font-weight: bold; }
+
+nav a {
+  color: #aaa;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.cart-icon { color: #fff; text-decoration: none; }
+
+/* Products */
+.products {
+  padding: 50px;
+}
+
+.product {
+  background: #111;
+  border-radius: 14px;
+  padding: 15px;
+  width: 240px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.price {
+  color: #4caf50;
+}
+
+/* Product page */
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 60px;
+}
+
+.product-info {
+  background: #0d0f12;
+  border-radius: 20px;
+  padding: 30px;
+  border: 1px solid #3a0f0f;
+}
+
+.product-info h1 {
+  margin-top: 0;
+}
+
+.description {
+  color: #ccc;
+  margin: 20px 0;
+}
+
+.price.big {
+  font-size: 26px;
+  color: #fff;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  background: #7b1e1e;
+  color: #fff;
+}
+
+.buy-now {
+  background: #b71c1c;
+}
+
+.product-image {
+  background: #1a1a1a;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+.product-image img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+.whatsapp {
+  background: #bb2e2e;
+  color: #fff;
+}
+
+.cart-page {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  padding: 50px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  background: #0f1216;
+  border: 1px solid #3a0f0f;
+  border-radius: 16px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.cart-item img {
+  width: 80px;
+  border-radius: 12px;
+  margin-left: 15px;
+}
+
+.item-info h4 {
+  margin: 0;
+}
+
+.item-info span {
+  color: #aaa;
+}
+
+.remove {
+  background: none;
+  color: #e53935;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.qty {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.qty button {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: #7b1e1e;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cart-summary {
+  background: #0f1216;
+  border-radius: 20px;
+  padding: 25px;
+  border: 1px solid #3a0f0f;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+

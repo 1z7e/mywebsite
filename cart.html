@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>سلة المشتريات</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">S</div>
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="cart.html" class="active">السلة</a>
+  </nav>
+</header>
+
+<main class="cart-page">
+
+  <!-- قائمة المنتجات -->
+  <div class="cart-items" id="cart-items"></div>
+
+  <!-- الملخص -->
+  <div class="cart-summary">
+    <h3>الإجمالي في السلة</h3>
+
+    <div class="summary-row">
+      <span>المجموع الفرعي</span>
+      <span id="subtotal">0 ر.س</span>
+    </div>
+
+    <div class="summary-row">
+      <strong>الإجمالي</strong>
+      <strong id="total">0 ر.س</strong>
+    </div>
+
+    <button class="checkout" onclick="checkoutWhatsApp()">
+      المتابعة إلى واتساب
+    </button>
+  </div>
+
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
